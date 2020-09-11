@@ -1,0 +1,184 @@
+/* ERIC MEYER RESET */
+/* body {
+box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+} */
+
+/* fin du reset */
+
+
+body {
+    background-color: pink;
+}
+
+.vert {
+    background-color: lightgreen;
+}
+
+header {
+    text-align: center;
+}
+
+.conteneur {
+    margin: 0 auto;
+    background-color: #fff;
+    width: 66%; 
+    /* width: 1000px; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+
+
+
+.row {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* La grille sur 12 colonnes  */
+/* Définition de la largeur des colonnes en % */
+
+.col-1 {
+    /* cette valeur est la largeur en % d'une colonne. Si je veux la largeur de 2 colonnes je fais la largeur d'une colonne * 2 */
+    width: 8.333333%;
+}
+
+.col-2 {
+    width: 16.666666%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.333333%;
+}
+.col-5 {
+    width: 41.666666%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.333333%;
+}
+.col-8 {
+    width: 66.666666%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.333333%;
+}
+.col-11 {
+    width: 91.666666%;
+}
+.col-12 {
+    width: 100%;
+}
+/* les marges à gauche pour créer si on veut des colonnes vides */
+.marge-1 {
+    margin-left: 8.333333%;
+}
+.marge-2 {
+    margin-left: 16.666666%;
+}
+.marge-3 {
+    margin-left: 25%;
+}
+
+.marge-4 {
+    margin-left: 33.333333%;
+}
+
+.marge-5 {
+    margin-left: 41.666666%;
+}
+
+.marge-6 {
+    margin-left: 50%;
+}
+
+.marge-7 {
+    margin-left: 58.333333%;
+}
+
+.marge-6 {
+    margin-left: 66.666666%;
+}
+
+.marge-7 {
+    margin-left: 58.333333%;
+}
+
+.marge-8 {
+    margin-left: 66.666666%;
+    padding: 4px;
+}
+.marge-9 {
+    margin-left: 75%;
+    padding: 4px;
+}
+.col-10 {
+    margin-left: 83.333333%;
+    padding: 4px;
+}
+.marge-11 {
+    margin-left: 91.666666%;
+    padding: 4px;
+}
+.marge-12{
+    margin-left: 100%;
+    padding: 4px;
+}
